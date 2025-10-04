@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Search Lite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <a href="#search-section" style="text-decoration: none; text-decoration-line: none;"> <h1 class="title">Library Search Lite</h1></a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#search-section" class="nav-link" data-section="search" aria-label="Go to search section">
+                            <span class="nav-icon" aria-hidden="true">⌕</span>
+                            Search
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#books-section" class="nav-link" data-section="books" aria-label="View all books">
+                            <span class="nav-icon" aria-hidden="true">≡</span>
+                            All Books
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#bookmarked-section" class="nav-link" data-section="bookmarked" aria-label="View bookmarked books">
+                            <span class="nav-icon" aria-hidden="true">★</span>
+                            Bookmarks
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq-section" class="nav-link" data-section="faq" aria-label="View frequently asked questions">
+                            <span class="nav-icon" aria-hidden="true">?</span>
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-controls">
+                <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                    <span class="dark-mode-icon">🌙</span>
+                </button>
+                <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav-icon">☰</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main">
+        <div class="container">
+            <!-- Search Section -->
+            <section id="search-section" class="search-section">
+                <div class="search-container">
+                    <label for="searchInput" class="search-label">Search Books</label>
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        class="search-input" 
+                        placeholder="Search by title or author..."
+                        aria-describedby="search-help"
+                    >
+                    <div id="search-help" class="search-help">Type to search books by title or author</div>
+                </div>
+                
+                <!-- Filter Toggle -->
+                <div class="filter-controls">
+                    <button id="showAllBtn" class="filter-btn active" aria-pressed="true">All Books</button>
+                    <button id="showBookmarkedBtn" class="filter-btn" aria-pressed="false">Bookmarked</button>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="stats-section">
+                <div class="stats">
+                    <span id="booksStats" class="books-stats">Showing 0 of 0 books</span>
+                    <span id="bookmarksStats" class="bookmarks-stats">Bookmarks: 0</span>
+                </div>
+            </section>
+
+            <!-- Books Section -->
+            <section id="books-section" class="books-section">
+                <div id="booksContainer" class="books-container">
+                    <!-- Books will be dynamically loaded here -->
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section id="faq-section" class="faq-section">
+                <h2 class="faq-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How do I search for books?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Use the search box at the top to search by book title or author name. The search is case-insensitive and updates in real-time as you type.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How do I bookmark a book?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Click the bookmark button (📖) on any book to add it to your bookmarks. Click again to remove it. Your bookmarks are saved automatically.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How do I view only bookmarked books?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Click the "Bookmarked" button to filter and show only your bookmarked books. Click "All Books" to return to the full list.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How do I enable dark mode?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Click the moon icon (🌙) in the top-right corner to toggle dark mode. Your preference is saved automatically.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            What to do if I am lost?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Click on the <i>Library Search Lite</i> on the top left corner.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© Tech Duo • Vibe Coding (Web Track — Option B)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
