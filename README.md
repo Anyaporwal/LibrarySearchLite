@@ -1,4 +1,4 @@
-# Library Search Lite
+# Library Search Lite for Online Build (at BMIET Portal)
 
 A modern, responsive single-page application for searching and bookmarking books. Built with vanilla HTML, CSS, and JavaScript.
 
