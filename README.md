@@ -9,7 +9,6 @@ A modern, responsive single-page application for searching and bookmarking books
 - **Filter Views**: Toggle between all books and bookmarked books
 - **Dark Mode**: Toggle between light and dark themes
 - **Responsive Design**: Works on mobile (360px) and desktop (1440px+)
-- **Accessibility**: Full keyboard navigation and screen reader support
 - **FAQ Section**: Expandable help section
 - **Statistics**: Live count of books and bookmarks
 
@@ -101,7 +100,6 @@ Edit `books.json` to add more books:
 
 ### Styling
 - Modify CSS custom properties in `:root` for easy theming
-- Dark mode colors are defined in `[data-theme="dark"]`
 - Responsive breakpoints can be adjusted in media queries
 
 ### Functionality
