@@ -108,6 +108,3 @@ Edit `books.json` to add more books:
 - All JavaScript is modular and well-commented
 - Easy to extend with new features
 - State management is centralized in `AppState` object
-
-## Live Demo
-https://librarysearchlitee.netlify.app/
