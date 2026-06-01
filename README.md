@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Library Search Lite
+=======
+# Library Search Lite for Online Build (at BMIET Portal)
+>>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734
 
 A modern, responsive single-page application for searching and bookmarking books. Built with vanilla HTML, CSS, and JavaScript.
 
@@ -9,7 +13,10 @@ A modern, responsive single-page application for searching and bookmarking books
 - **Filter Views**: Toggle between all books and bookmarked books
 - **Dark Mode**: Toggle between light and dark themes
 - **Responsive Design**: Works on mobile (360px) and desktop (1440px+)
+<<<<<<< HEAD
 - **Accessibility**: Full keyboard navigation and screen reader support
+=======
+>>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734
 - **FAQ Section**: Expandable help section
 - **Statistics**: Live count of books and bookmarks
 
@@ -101,10 +108,18 @@ Edit `books.json` to add more books:
 
 ### Styling
 - Modify CSS custom properties in `:root` for easy theming
+<<<<<<< HEAD
 - Dark mode colors are defined in `[data-theme="dark"]`
+=======
+>>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734
 - Responsive breakpoints can be adjusted in media queries
 
 ### Functionality
 - All JavaScript is modular and well-commented
 - Easy to extend with new features
+<<<<<<< HEAD
 - State management is centralized in `AppState` object
+=======
+- State management is centralized in `AppState` object
+
+>>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734

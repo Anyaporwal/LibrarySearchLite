@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was developed with AI assistance using the following prompts and tools:
 
 1. INITIAL PROJECT SETUP
@@ -46,3 +47,53 @@ FUNCTIONALITY IMPLEMENTED:
 All code is original and follows modern web development best practices.
 
 Live Demo Link : https://librarysearchlitee.netlify.app/
+=======
+This project was developed with AI assistance using the following prompts and tools:
+
+1. INITIAL PROJECT SETUP
+   - Prompt: "Build a single-page project called 'Library Search Lite' using plain HTML, CSS, and JavaScript"
+   - Tools used: write, search_replace, todo_write
+   - Generated: index.html, style.css, script.js, books.json, README.md
+
+2. COLOR PALETTE UPDATES
+   - Prompt: "can u use another colours pallet minimal but different than white, good looking"
+   - Tools used: search_replace
+   - Updated: CSS color variables for warm earth tones
+
+3. ENGINEERING BOOKS DATASET
+   - Prompt: "include mre book around 25 total include engineering study realted books with clear discription, author name etc essential info also the page should have light mode and make the page as visually appealing as ypu can"
+   - Tools used: search_replace, write
+   - Updated: books.json with 25 engineering books, enhanced CSS with light mode
+
+4. ACCESSIBILITY ENHANCEMENTS
+   - Prompt: "do my code have all these functionalities if not the add them in my this code"
+   - Tools used: search_replace, write
+   - Added: Skip link, navigation toggle, enhanced accessibility features
+
+AI TOOLS USED:
+- write: Creating new files
+- search_replace: Modifying existing files
+- todo_write: Task management
+- read_lints: Code quality checking
+- grep: Pattern searching
+
+FUNCTIONALITY IMPLEMENTED:
+✅ Single-page application (HTML/CSS/JS only)
+✅ Responsive design (360px-1440px)
+✅ Search functionality with real-time filtering
+✅ Bookmark/unbookmark with localStorage persistence
+✅ Dark mode toggle with localStorage
+✅ FAQ expand/collapse functionality
+✅ Navigation toggle for mobile
+✅ Skip link for accessibility
+✅ Keyboard navigation support
+✅ Semantic HTML structure
+✅ ARIA labels and attributes
+✅ 25 engineering books dataset
+✅ Stats display (book counts)
+✅ Visual enhancements (gradients, animations)
+
+All code is original and follows modern web development best practices.
+
+Live Demo Link : https://librarysearchlitee.netlify.app/
+>>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734
