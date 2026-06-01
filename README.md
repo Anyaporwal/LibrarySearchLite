@@ -165,3 +165,9 @@ Update the `books.json` file:
 * GitHub: https://github.com/Anyaporwal
 
 ---
+## 🌐 Live Demo
+
+🔗 Live Website: https://librarysearchlitee.netlify.app/
+
+Experience the application live with real-time book search, bookmarking, dark mode, and responsive design.
+
