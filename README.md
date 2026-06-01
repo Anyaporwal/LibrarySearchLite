@@ -1,99 +1,133 @@
-<<<<<<< HEAD
-# Library Search Lite
-=======
-# Library Search Lite for Online Build (at BMIET Portal)
->>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734
+# 📚 Library Search Lite
 
-A modern, responsive single-page application for searching and bookmarking books. Built with vanilla HTML, CSS, and JavaScript.
+A modern, responsive, and user-friendly web application for searching, filtering, and bookmarking books. Built using **HTML, CSS, and JavaScript**, this project provides a seamless reading discovery experience with features like real-time search, dark mode, and persistent bookmarks.
 
-## Features
+---
 
-- **Book Search**: Real-time search by title or author
-- **Bookmarking**: Save your favorite books with persistent storage
-- **Filter Views**: Toggle between all books and bookmarked books
-- **Dark Mode**: Toggle between light and dark themes
-- **Responsive Design**: Works on mobile (360px) and desktop (1440px+)
-<<<<<<< HEAD
-- **Accessibility**: Full keyboard navigation and screen reader support
-=======
->>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734
-- **FAQ Section**: Expandable help section
-- **Statistics**: Live count of books and bookmarks
+## ✨ Features
 
-## Getting Started
+* 🔍 **Real-Time Search** – Search books instantly by title or author.
+* 📖 **Bookmark Books** – Save favorite books with persistent local storage.
+* 🎯 **Smart Filtering** – Switch between all books and bookmarked books.
+* 🌙 **Dark Mode Support** – Toggle between light and dark themes.
+* 📱 **Responsive Design** – Optimized for mobile, tablet, and desktop devices.
+* ♿ **Accessibility Friendly** – Keyboard navigation and screen-reader support.
+* ❓ **FAQ Section** – Expandable help and guidance section.
+* 📊 **Live Statistics** – Track total books and bookmarks dynamically.
 
-1. **Clone or download** this project
-2. **Open `index.html`** in your web browser
-3. **Start searching and bookmarking books!**
+---
 
-## File Structure
+## 🚀 Getting Started
 
-```
-Library Search Lite/
-├── index.html          # Main HTML structure
-├── style.css           # Responsive CSS with dark mode
-├── script.js           # JavaScript functionality
-├── books.json          # Sample book data
-└── README.md           # This file
-└── NOTES.txt           # AI agents and prompts used
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Anyaporwal/LibrarySearchLite.git
 ```
 
-## Usage
+### 2️⃣ Open the Project
 
-### Searching Books
-- Type in the search box to filter books by title or author
-- Search is case-insensitive and updates in real-time
+Navigate to the project folder and open `index.html` in your browser.
 
-### Bookmarking
-- Click the bookmark button (📖) on any book to save it
-- Click again to remove from bookmarks
-- Bookmarks are saved automatically and persist across page reloads
+### 3️⃣ Start Exploring
 
-### Filtering
-- **All Books**: Shows all available books
-- **Bookmarked**: Shows only your bookmarked books
+Search, bookmark, and manage your favorite books instantly.
 
-### Dark Mode
-- Click the moon/sun icon in the top-right corner
-- Your preference is saved automatically
+---
 
-### Keyboard Shortcuts
-- **Ctrl/Cmd + K**: Focus the search box
-- **Tab**: Navigate through interactive elements
-- **Enter/Space**: Activate buttons and links
-- **Escape**: Close FAQ items
+## 📂 Project Structure
 
-## Browser Support
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
+```text
+LibrarySearchLite/
+├── index.html
+├── style.css
+├── script.js
+├── books.json
+├── README.md
+└── NOTES.txt
+```
 
-## Features in Detail
+---
 
-### Responsive Design
-- Mobile-first approach
-- Breakpoints: 360px (mobile), 768px (tablet), 1440px (desktop)
-- Flexible grid layout that adapts to screen size
+## 🔍 Search Functionality
 
-### Accessibility
-- Semantic HTML structure
-- ARIA labels and attributes
-- Keyboard navigation support
-- Screen reader friendly
-- High contrast mode support
-- Reduced motion support
+* Search by **book title** or **author name**
+* Case-insensitive matching
+* Instant filtering without page reloads
 
-### Performance
-- Efficient DOM manipulation
-- Debounced search input
-- Minimal re-renders
-- Optimized CSS animations
+---
 
-## Customization
+## 📖 Bookmarking System
 
-### Adding More Books
-Edit `books.json` to add more books:
+* Add books to bookmarks with a single click
+* Remove bookmarks anytime
+* Bookmarks persist using browser local storage
+
+---
+
+## 🌙 Dark Mode
+
+* Toggle between light and dark themes
+* Theme preference is saved automatically
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut      | Action            |
+| ------------- | ----------------- |
+| Ctrl/Cmd + K  | Focus Search Bar  |
+| Tab           | Navigate Elements |
+| Enter / Space | Activate Buttons  |
+| Escape        | Close FAQ Items   |
+
+---
+
+## 📱 Responsive Design
+
+The application follows a mobile-first approach and supports:
+
+* 📱 Mobile Devices (360px+)
+* 📟 Tablets (768px+)
+* 💻 Desktop Screens (1440px+)
+
+---
+
+## ♿ Accessibility Features
+
+* Semantic HTML Structure
+* ARIA Labels & Attributes
+* Keyboard Navigation Support
+* Screen Reader Compatibility
+* High Contrast Support
+* Reduced Motion Support
+
+---
+
+## ⚡ Performance Optimizations
+
+* Efficient DOM Updates
+* Debounced Search Input
+* Optimized Rendering
+* Lightweight Architecture
+* Smooth CSS Animations
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* Local Storage API
+
+---
+
+## 🔧 Customization
+
+### Add New Books
+
+Update the `books.json` file:
 
 ```json
 {
@@ -106,20 +140,28 @@ Edit `books.json` to add more books:
 }
 ```
 
-### Styling
-- Modify CSS custom properties in `:root` for easy theming
-<<<<<<< HEAD
-- Dark mode colors are defined in `[data-theme="dark"]`
-=======
->>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734
-- Responsive breakpoints can be adjusted in media queries
+### Modify Styling
 
-### Functionality
-- All JavaScript is modular and well-commented
-- Easy to extend with new features
-<<<<<<< HEAD
-- State management is centralized in `AppState` object
-=======
-- State management is centralized in `AppState` object
+* Edit CSS variables in `:root`
+* Customize dark mode colors in `[data-theme="dark"]`
+* Update responsive breakpoints in media queries
 
->>>>>>> d28151ee1be506fc6d9ec7bb79b80015235dd734
+---
+
+## 🌟 Future Enhancements
+
+* Book Categories & Genres
+* User Authentication
+* Cloud-Based Bookmark Sync
+* Advanced Search Filters
+* Book Recommendations
+
+---
+
+## 👨‍💻 Author
+
+**Anya Porwal**
+
+* GitHub: https://github.com/Anyaporwal
+
+---
